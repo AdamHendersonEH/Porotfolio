@@ -1,0 +1,82 @@
+table { /* styling for table */
+  border-collapse: collapse;
+  padding: 25px;
+  font-size: 1em;
+  font-family: sans-serif;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+table, th, td { 
+  border: 1px solid black;
+
+}
+
+img { /* round image corners */
+  border-radius:25px;
+}
+
+.reqCol{ /* make table widths correct */
+width:30%;
+}
+
+.metCol{
+width:60%;
+}
+
+.fileCol{
+width:10%;
+}
+
+body { /* set body background colour */
+  background-color: #06808B;
+}
+
+input { /* set input background colour, border colour and round corners of input boxes */
+  background-color: #31707F;
+  border-color: #6F8087;
+  border-radius:25px;
+}
+
+td { /* add padding to table data */
+  padding: 5px;
+}
+
+thead tr { /* edit table bg colour, text colour and align text to left */
+  background-color: #222529;
+  color:#7a7776;
+  text-align: left;
+}
+
+table th, /* give table padding */
+table td {
+    padding: 12px 15px;
+}
+
+ tbody tr { /* give a white border to the table */
+  border-bottom: 1px solid #dddddd;
+}
+
+table tbody tr:nth-of-type(even) { /* for every even table row, make the background colour different */
+  background-color: #d4d3d3d2;
+}
+
+.nav navbar-nav { /* display the navbar horizontally */
+  display: inline-block;
+}
+
+.navbar-brand { /* set the text colour to match the website theme */
+  color: #06808B;
+}
+
+button { /* set the buttons to match the theme and round the edges */
+  background-color: #31707F;
+  border-color: #6F8087;
+  border-radius:25px;
+}
+
+.card { /* set the card to match the theme */
+  background-color: #31707F;
+  border-color: #6F8087;
+}
+
+
